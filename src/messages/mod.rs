@@ -22,7 +22,7 @@ use crate::group::*;
 use crate::tree::{index::*, *};
 use std::fmt;
 
-pub(crate) mod proposals;
+pub mod proposals;
 use proposals::*;
 
 #[derive(Debug)]
