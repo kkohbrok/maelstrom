@@ -97,7 +97,7 @@ impl Codec for GroupEpoch {
     }
 }
 
-#[derive(Debug, Clone)]
+#[derive(PartialEq, Clone)]
 pub struct GroupContext {
     pub group_id: GroupId,
     pub epoch: GroupEpoch,
